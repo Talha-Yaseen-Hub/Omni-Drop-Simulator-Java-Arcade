@@ -2,7 +2,7 @@
 <div align="center">
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0a0c28,11caa0&height=220&section=header&text=OmniDrop%20Simulator&fontSize=55&fontColor=ffcd5a&animation=fadeIn&fontAlignY=35&desc=BS%20Information%20Technology%20-%20FCIT%20Punjab%20University&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0a0c28,11caa0&height=220&section=header&text=OmniDrop%20Simulator&fontSize=55&fontColor=ffcd5a&animation=fadeIn&fontAlignY=35&desc=BS%20Java%20Arcade%20-%20Academic%20Project&descAlignY=55&descSize=16" width="100%"/>
 
 <br/>
 
