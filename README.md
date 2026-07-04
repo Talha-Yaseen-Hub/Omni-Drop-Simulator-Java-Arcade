@@ -1,7 +1,7 @@
 <a name="top"></a>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c0735,100:6a0dad&height=220&section=header&text=Omni-Drop%20Simulator&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=A%20Java%20Arcade%20Game%20of%20Falling%20Objects%2C%20Power-Ups%20%26%20Precision&descAlignY=54&descSize=15" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c0735,50:ff2d95,100:2c0735&height=220&section=header&text=Omni-Drop%20Simulator&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=A%20Java%20Arcade%20Game%20of%20Falling%20Objects%2C%20Power-Ups%20%26%20Precision&descAlignY=54&descSize=15" width="100%"/>
 
 <br/>
 
@@ -9,24 +9,45 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Language-Java-FF2D95?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Type-2D%20Arcade%20Game-6A0DAD?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Status-Completed-00F5FF?style=for-the-badge&logoColor=black" />
-<img src="https://img.shields.io/badge/License-MIT-FFD700?style=for-the-badge&logoColor=black" />
+<img src="https://img.shields.io/badge/University-Punjab%20University-1E90FF?style=for-the-badge&labelColor=2c0735" />
+<img src="https://img.shields.io/badge/Faculty-FCIT-FF2D95?style=for-the-badge&labelColor=2c0735" />
+<img src="https://img.shields.io/badge/Program-BS%20IT-00F5FF?style=for-the-badge&labelColor=2c0735" />
+<img src="https://img.shields.io/badge/Roll%20No-BITF24M041-FFD700?style=for-the-badge&labelColor=2c0735&logoColor=black" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Language-Java-FF2D95?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=2c0735" />
+<img src="https://img.shields.io/badge/Type-2D%20Arcade%20Game-6A0DAD?style=for-the-badge&labelColor=2c0735" />
+<img src="https://img.shields.io/badge/License-MIT-FFD700?style=for-the-badge&logoColor=black&labelColor=2c0735" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Java%20Classes-14-00F5FF?style=for-the-badge&labelColor=2c0735" />
+<img src="https://img.shields.io/badge/Entities-5-FF2D95?style=for-the-badge&labelColor=2c0735" />
+<img src="https://img.shields.io/badge/FX%20Classes-3-6A0DAD?style=for-the-badge&labelColor=2c0735" />
+<img src="https://img.shields.io/badge/Core%20Systems-6-FFD700?style=for-the-badge&logoColor=black&labelColor=2c0735" />
+<img src="https://img.shields.io/badge/Status-Completed-2ECC71?style=for-the-badge&labelColor=2c0735" />
 
 <br/><br/>
 
 <img src="https://img.shields.io/github/stars/Talha-Yaseen-Hub/Omni-Drop-Simulator?style=for-the-badge&color=FFD700&labelColor=2C0735&label=Stars" />
 <img src="https://img.shields.io/github/forks/Talha-Yaseen-Hub/Omni-Drop-Simulator?style=for-the-badge&color=00F5FF&labelColor=2C0735&label=Forks" />
 <img src="https://img.shields.io/github/last-commit/Talha-Yaseen-Hub/Omni-Drop-Simulator?style=for-the-badge&color=FF2D95&labelColor=2C0735&label=Last%20Commit" />
+<img src="https://komarev.com/ghpvc/?username=OmniDropSimulator-repo&style=for-the-badge&color=FFD700&labelColor=2C0735&label=Repository+Views" />
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00f5ff,100:ff2d95&height=4&section=header" width="60%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00f5ff,50:ff2d95,100:6a0dad&height=4&section=header" width="60%"/>
 
 </div>
 
 <br/><br/>
+
+<div align="center">
+
+### ⚡ Real-Time Reflex Arcade Engine
+
+</div>
 
 > **Omni-Drop Simulator** is a 2D Java arcade game where objects fall continuously from the top of the screen and the player must react in real time — catching the beneficial drops, dodging the dangerous ones, and grabbing power-ups along the way. A dedicated particle and floating-text FX layer keeps every catch, miss, and bonus feeling responsive rather than silent.
 
@@ -53,7 +74,12 @@ java Main
 
 <br/>
 
-## 📑 Table of Contents
+## 📖 Table of Contents
+
+<details open>
+<summary><b>▼ Click to expand / collapse</b></summary>
+
+<br/>
 
 <table>
 <tr>
@@ -83,6 +109,8 @@ java Main
 </td>
 </tr>
 </table>
+
+</details>
 
 ---
 
