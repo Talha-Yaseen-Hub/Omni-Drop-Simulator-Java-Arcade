@@ -430,13 +430,17 @@ stateDiagram-v2
 
 ## 👨‍💻 Author
 
+## 👨‍💻 Author
+
 ## Talha Yaseen
 
 *Roll: BITF24M041*
 
 *BS Information Technology*
 
-Omni Drop Java Arcade Simulator - Academic Project
+Database Management System — Ride Sharing System Final Project (2025)
+
+*3rd Semester DBMS Final Project*
 
 ### Connect with Me
 
