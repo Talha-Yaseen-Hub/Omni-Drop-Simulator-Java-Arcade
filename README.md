@@ -506,8 +506,8 @@ Your support encourages me to continue organizing and sharing educational resour
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=18&duration=3000&pause=1000&color=2EC4B6&center=true&vCenter=true&width=600&lines=Like+a+quiet+star+in+a+void;Your+visit+brings+light+to+this+project%2C+Thank+you+for+dropping+by+✨+%F0%9F%9A%95;See+You+Next+Project+%F0%9F%91%8B"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=18&duration=3000&pause=1000&color=2EC4B6&center=true&vCenter=true&width=850&lines=Like+a+quiet+star+in+the+void...;Your+visit+brings+light+to+this+project%2C+thank+you+for+dropping+by+✨;See+You+On+The+Next+Project+👋" alt="Thank You Message" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:023047,50:FFB703,100:2EC4B6&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a0dad,100:2c0735&height=100&section=footer" width="100%"/>
 
 </div>
