@@ -426,10 +426,6 @@ stateDiagram-v2
 
 ---
 
-<br/>
-
-## 👨‍💻 Author
-
 ## 👨‍💻 Author
 
 ## Talha Yaseen
@@ -438,9 +434,7 @@ stateDiagram-v2
 
 *BS Information Technology*
 
-Database Management System — Ride Sharing System Final Project (2025)
-
-*3rd Semester DBMS Final Project*
+Omni Drop Java Arcade Academic Project
 
 ### Connect with Me
 
