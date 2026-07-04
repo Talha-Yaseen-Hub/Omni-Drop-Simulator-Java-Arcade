@@ -14,21 +14,33 @@
 <img src="https://img.shields.io/badge/Status-Completed-00F5FF?style=for-the-badge&logoColor=black" />
 <img src="https://img.shields.io/badge/License-MIT-FFD700?style=for-the-badge&logoColor=black" />
 
+<br/><br/>
+
+<img src="https://img.shields.io/github/stars/Talha-Yaseen-Hub/Omni-Drop-Simulator?style=for-the-badge&color=FFD700&labelColor=2C0735&label=Stars" />
+<img src="https://img.shields.io/github/forks/Talha-Yaseen-Hub/Omni-Drop-Simulator?style=for-the-badge&color=00F5FF&labelColor=2C0735&label=Forks" />
+<img src="https://img.shields.io/github/last-commit/Talha-Yaseen-Hub/Omni-Drop-Simulator?style=for-the-badge&color=FF2D95&labelColor=2C0735&label=Last%20Commit" />
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00f5ff,100:ff2d95&height=4&section=header" width="60%"/>
+
 </div>
 
 <br/><br/>
 
-> **Omni-Drop Simulator** is a 2D Java arcade game where objects fall from the top of the screen and the player must react in real time — catching the good ones, dodging the dangerous ones, and grabbing power-ups along the way, all while a live particle and floating-text FX system keeps the action feeling alive.
+> **Omni-Drop Simulator** is a 2D Java arcade game where objects fall continuously from the top of the screen and the player must react in real time — catching the beneficial drops, dodging the dangerous ones, and grabbing power-ups along the way. A dedicated particle and floating-text FX layer keeps every catch, miss, and bonus feeling responsive rather than silent.
 
 <br/>
 
 ## ⚡ Quick Start
 
+**Prerequisites:** Java Development Kit (JDK 8 or newer) installed and available on your PATH.
+
 ```bash
 git clone https://github.com/Talha-Yaseen-Hub/Omni-Drop-Simulator.git
 cd Omni-Drop-Simulator
 
-# Option 1 — Run the pre-built jar (fastest)
+# Option 1 — Run the pre-built jar (fastest, no compiling needed)
 java -jar Omni-Drop-Java-Arcade.jar
 
 # Option 2 — Compile from source
@@ -36,6 +48,8 @@ cd Java-Arcade
 javac *.java Entities/*.java FX/*.java
 java Main
 ```
+
+*(Requires only a Java Runtime to play via the `.jar`; requires a full JDK to compile from source.)*
 
 <br/>
 
@@ -46,19 +60,23 @@ java Main
 <td valign="top">
 
 - [🎮 About the Game](#about-the-game)
+- [✨ Key Features](#key-features)
 - [📂 Repository Structure](#repository-structure)
 - [📁 Project Folder](#project-folder)
 - [🧩 Java Arcade — Core Files](#java-arcade--core-files)
 - [🧍 Entities Folder](#entities-folder)
-- [✨ FX Folder](#fx-folder)
+- [🎆 FX Folder](#fx-folder)
 
 </td>
 <td valign="top">
 
 - [🧠 Module Architecture](#module-architecture)
+- [🔁 Collision Interaction Flow](#collision-interaction-flow)
 - [🔄 Game Loop](#game-loop)
 - [🔀 Game State Machine](#game-state-machine)
+- [🧪 What This Project Demonstrates](#what-this-project-demonstrates)
 - [🛠️ Tech Stack](#tech-stack)
+- [🚀 Future Enhancements](#future-enhancements)
 - [🎓 Author & Academic Info](#author--academic-info)
 - [📜 License](#license)
 
@@ -72,9 +90,26 @@ java Main
 
 ## 🎮 About the Game
 
-Omni-Drop Simulator follows a classic arcade formula with a layer of extra polish: a **spawn controller** continuously drops different kinds of objects toward the player, who moves along the bottom of the screen to intercept them. Some drops are worth catching, some are hazards to avoid, and some are temporary power-ups — reflexes and prioritization decide the score.
+Omni-Drop Simulator follows a classic arcade formula with an extra layer of polish that many beginner projects skip. A **spawn controller** continuously drops different kinds of objects toward the player, who moves along the bottom of the screen to intercept them. Some drops are worth catching for points, some are hazards that cost the player a life or score if caught, and some are temporary power-ups that shift the odds in the player's favor for a short window.
 
-Under the hood, the project is split cleanly into three concerns: **entities** (the things falling and moving on screen), **FX** (particles and floating text that make actions feel responsive), and a small set of **core controller files** that tie the window, game state, and scoring together.
+What separates this from a bare-minimum catcher game is the separation of concerns under the hood: **entities** (the things falling and moving on screen), **FX** (particles and floating text that make every action feel acknowledged), and a small set of **core controller files** that tie the window, game state, and scoring together into one coherent loop.
+
+The result is a game that's simple to describe in one sentence, but structured the way a larger game engine would be — which is exactly what makes it a strong portfolio piece beyond just "a game that works."
+
+<br/>
+
+## ✨ Key Features
+
+| | Feature | Description |
+|:---:|---|---|
+| 🎯 | **Catch Mechanic** | Core gameplay loop of intercepting falling objects before they reach the bottom |
+| 🕳️ | **Hazard Drops** | Not every falling object helps you — some are meant to be avoided |
+| ⭐ | **Power-Up System** | Temporary bonuses that reward good timing and risk-taking |
+| 🌀 | **Dynamic Spawning** | A dedicated spawn controller decides what appears, when, and where |
+| ✨ | **Particle FX** | Visual bursts on catches, misses, and power-up pickups |
+| 💬 | **Floating Score Text** | On-screen feedback (e.g. score gained) that rises and fades |
+| 🏆 | **Persistent High Scores** | Scores are saved and tracked across play sessions |
+| 🔀 | **Full Game States** | Menu, active play, pause, and game-over are all handled distinctly |
 
 <br/>
 
@@ -116,7 +151,7 @@ Omni-Drop-Simulator/
 └── LICENSE
 ```
 
-> 💡 File purposes below are described based on standard Java game-architecture conventions and what each class name implies — since this README is generated from the file list rather than the source code itself, adjust any specifics that don't match your actual implementation.
+> 💡 **A note on accuracy:** the file-by-file explanations below are built from standard Java game-architecture conventions and what each class name implies — this README was generated from your file list, not by reading the actual source code. Skim through and correct anything that doesn't match your real implementation, especially around `Voiding.java`, where the exact penalty behavior is inferred rather than confirmed.
 
 <br/>
 
@@ -128,8 +163,8 @@ Omni-Drop-Simulator/
 
 | File | Purpose |
 |---|---|
-| `Presentation.pptx` | Slide deck presenting the game concept, design, and outcome |
-| `Proposal.pdf` | The original project proposal outlining scope and objectives |
+| `Presentation.pptx` | Slide deck presenting the game's concept, design decisions, and final outcome |
+| `Proposal.pdf` | The original project proposal — scope, objectives, and intended feature set |
 
 <br/>
 
@@ -139,14 +174,23 @@ Omni-Drop-Simulator/
 
 ## 🧩 Java Arcade — Core Files
 
-| File | Role |
-|---|---|
-| 🚀 `Main.java` | Entry point of the application — starts the game and launches the window |
-| 🪟 `GameWindow.java` | Creates and configures the application window that hosts the game |
-| 🎨 `GamePannel.java` | The core game surface — handles rendering and the main update/draw loop |
-| 🔄 `GameState.java` | Tracks which screen/state the game is in (menu, playing, paused, game over) |
-| 🏆 `HighScoreManager.java` | Saves, loads, and compares high scores across play sessions |
-| ⚙️ `Constants.java` | Central home for fixed values — screen size, speeds, spawn rates, and similar config |
+**🚀 `Main.java`**
+The entry point of the application. Its job is to initialize the game window and hand off control to it — the first and last file execution touches.
+
+**🪟 `GameWindow.java`**
+Creates and configures the top-level application window (title, size, close behavior) that hosts the actual game surface.
+
+**🎨 `GamePannel.java`**
+The heart of the game — this is almost certainly where rendering happens and where the main update-then-draw loop lives, redrawing the screen every frame based on current entity positions.
+
+**🔄 `GameState.java`**
+Tracks which screen or mode the game is currently in — menu, playing, paused, or game over — and is likely what other classes check before deciding how to behave each frame.
+
+**🏆 `HighScoreManager.java`**
+Handles reading and writing high scores, most likely to a small local file, and comparing the current run's score against the stored best.
+
+**⚙️ `Constants.java`**
+A central home for fixed configuration values — screen dimensions, fall speed, spawn intervals, colors — kept in one place instead of scattered as magic numbers throughout the codebase.
 
 <br/>
 
@@ -156,13 +200,20 @@ Omni-Drop-Simulator/
 
 ## 🧍 Entities Folder
 
-| File | Role |
-|---|---|
-| 🧍 `Player.java` | The player-controlled object — handles movement and collision boundaries |
-| 🎯 `FallingObject.java` | The base object that falls from the top of the screen toward the player |
-| ⭐ `Powerup.java` | A special drop that grants the player a temporary bonus when collected |
-| 🌀 `Spawn.java` | Controls when and where new falling objects/power-ups appear |
-| 🕳️ `Voiding.java` | A hazard-type drop — likely penalizes the player or removes score/lives if caught |
+**🧍 `Player.java`**
+The player-controlled object. Handles movement input and defines the collision boundary used to detect whether a falling object has been caught.
+
+**🎯 `FallingObject.java`**
+The base "thing that falls" — likely tracks its own position, fall speed, and whether it's still active, updating its position once per frame.
+
+**⭐ `Powerup.java`**
+A special variant of a falling object that, once collected, grants the player a temporary advantage rather than direct points.
+
+**🌀 `Spawn.java`**
+The controller responsible for deciding when a new object appears, where it appears, and possibly which type it is — the piece that keeps the game's pacing interesting rather than predictable.
+
+**🕳️ `Voiding.java`**
+Based on the name, this is most likely a hazard-type drop — something the player wants to avoid rather than catch, probably costing a life, points, or triggering a negative effect on contact.
 
 <br/>
 
@@ -170,13 +221,16 @@ Omni-Drop-Simulator/
 
 <br/>
 
-## ✨ FX Folder
+## 🎆 FX Folder
 
-| File | Role |
-|---|---|
-| ✨ `Particle.java` | A single visual particle — a spark or fragment used in effect bursts |
-| 🎆 `ParticleSystem.java` | Manages groups of particles — spawning, animating, and clearing them over time |
-| 💬 `FloatingText.java` | Short-lived on-screen text (e.g. a "+10" popup) that rises and fades out |
+**✨ `Particle.java`**
+A single visual particle — a spark, fragment, or dot with its own position, velocity, and lifespan, used as a building block for larger effects.
+
+**🎆 `ParticleSystem.java`**
+Manages a whole collection of `Particle` objects at once — spawning a burst, updating them every frame, and discarding them once they've faded.
+
+**💬 `FloatingText.java`**
+Short-lived on-screen text, like a "+10" popup, that appears at a specific point, rises upward, and fades out — the kind of small detail that makes feedback feel immediate.
 
 <br/>
 
@@ -220,9 +274,37 @@ graph TD
 
 <br/>
 
-## 🔄 Game Loop
+## 🔁 Collision Interaction Flow
 
-*A plausible run-time flow based on the entity and FX classes present in the project:*
+*A plausible sequence for what happens the instant the player intercepts a drop:*
+
+```mermaid
+sequenceDiagram
+    participant Spawn as 🌀 Spawn
+    participant Obj as 🎯/⭐/🕳️ Falling Entity
+    participant Player as 🧍 Player
+    participant GS as 🔄 GameState
+    participant FX as 🎆 ParticleSystem
+    participant HS as 🏆 HighScoreManager
+
+    Spawn->>Obj: Create & drop at random position
+    loop Every Frame
+        Obj->>Obj: Move downward
+        Player->>Obj: Check collision bounds
+    end
+    Player->>GS: Report collision result
+    GS->>FX: Trigger particle burst + floating text
+    GS->>HS: Update score if applicable
+    GS-->>Player: Apply effect — bonus, penalty, or none
+```
+
+<br/>
+
+---
+
+<br/>
+
+## 🔄 Game Loop
 
 ```mermaid
 flowchart TD
@@ -258,7 +340,7 @@ flowchart TD
 
 ## 🔀 Game State Machine
 
-*Reflecting the states `GameState.java` is likely responsible for tracking:*
+*Reflecting the states `GameState.java` is most likely responsible for tracking:*
 
 ```mermaid
 stateDiagram-v2
@@ -270,6 +352,21 @@ stateDiagram-v2
     GameOver --> Menu: Restart
     GameOver --> [*]: Quit
 ```
+
+<br/>
+
+---
+
+<br/>
+
+## 🧪 What This Project Demonstrates
+
+- 🏗️ **Object-Oriented Design** — entities, FX, and core systems each live in their own classes with a clear single responsibility
+- 🔄 **Real-Time Game Loop** — continuous update-and-render cycle running many times per second
+- 🎮 **Event-Driven Input Handling** — the game reacts to player input as it happens, not on a delay
+- 🔀 **State Management** — menu, play, pause, and game-over are handled as distinct, well-defined states
+- ✨ **Feedback-Driven UX** — particles and floating text turn silent logic (a score increment) into something the player actually notices
+- 📁 **Maintainable Structure** — splitting code by concern (entities vs. FX vs. core) instead of one large file
 
 <br/>
 
@@ -301,15 +398,37 @@ stateDiagram-v2
 
 <br/>
 
+## 🚀 Future Enhancements
+
+- [ ] Additional power-up types with distinct visual identities
+- [ ] Progressive difficulty scaling (faster spawns, more hazards over time)
+- [ ] Sound effects and background music
+- [ ] An online or local leaderboard beyond a single high score
+- [ ] Configurable controls / key remapping
+- [ ] Packaged, cross-platform executable beyond the runnable `.jar`
+
+<br/>
+
+---
+
+<br/>
+
 ## 🎓 Author & Academic Info
 
 <div align="center">
 
 ### Talha Yaseen
 
-🎓 BS Information Technology &nbsp;•&nbsp; 🏫 FCIT, Punjab University &nbsp;•&nbsp; 🎮 Personal / Academic Project
+| | |
+|---|---|
+| **Roll No** | BITF24M041 |
+| **Program** | BS Information Technology |
+| **Faculty** | FCIT |
+| **University** | University of the Punjab, Lahore |
+| **Batch** | 2024 |
+| **Project Type** | Java Programming — Personal / Academic Project |
 
-<br/><br/>
+<br/>
 
 <a href="mailto:talhavectorarts@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
