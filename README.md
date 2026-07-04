@@ -436,9 +436,7 @@ stateDiagram-v2
 
 *BS Information Technology*
 
-Omni Drop Simulator Java Arcade
-
-*Acaddemic Java Arcade Project*
+Omni Drop Java Arcade Simulator - Academic Project
 
 ### Connect with Me
 
