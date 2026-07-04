@@ -1,6 +1,8 @@
 <a name="top"></a>
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=220&section=header&text=OmniDrop%20Simulator-Java-Arcade&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=BS%20Information%20Technology%20%7C%20FCIT%2C%20University%20of%20the%20Punjab&descAlignY=55&descSize=16" width="100%"/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c0735,50:ff2d95,100:2c0735&height=220&section=header&text=Omni-Drop%20Simulator&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=A%20Java%20Arcade%20Game%20of%20Falling%20Objects%2C%20Power-Ups%20%26%20Precision&descAlignY=54&descSize=15" width="100%"/>
 
 <br/>
