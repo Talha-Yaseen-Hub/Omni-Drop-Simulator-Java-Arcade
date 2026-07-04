@@ -426,6 +426,11 @@ stateDiagram-v2
 
 ---
 
+<a id="author"></a>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2EC4B6,50:FFB703,100:023047&height=150&section=header&text=About%20The%20Author&fontSize=36&fontColor=ffffff&animation=fadeIn"/>
+
 ## 👨‍💻 Author
 
 ## Talha Yaseen
