@@ -6,7 +6,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=20&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&width=680&lines=Catch+%F0%9F%8E%AF+Dodge+%F0%9F%95%B3%EF%B8%8F+Power-Up+%E2%9A%A1+Survive+%F0%9F%8F%86;A+2D+Java+Arcade+Game+Built+From+Scratch;Every+Drop+Counts" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=20&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&width=680&lines=Catch+%F0%9F%8E%AF+Dodge+%F0%9F%95%B3%EF%B8%8F+Power-Up+%E2%9A%A1+Survive+%F0%9F%8F%86;A+2D+Java+Arcade+Game;Every+Drop+Counts" alt="Typing SVG" />
 
 <br/><br/>
 
