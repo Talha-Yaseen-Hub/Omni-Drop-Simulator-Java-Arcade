@@ -18,20 +18,6 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Language-Java-FF2D95?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=2c0735" />
-<img src="https://img.shields.io/badge/Type-2D%20Arcade%20Game-6A0DAD?style=for-the-badge&labelColor=2c0735" />
-<img src="https://img.shields.io/badge/License-MIT-FFD700?style=for-the-badge&logoColor=black&labelColor=2c0735" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Java%20Classes-14-00F5FF?style=for-the-badge&labelColor=2c0735" />
-<img src="https://img.shields.io/badge/Entities-5-FF2D95?style=for-the-badge&labelColor=2c0735" />
-<img src="https://img.shields.io/badge/FX%20Classes-3-6A0DAD?style=for-the-badge&labelColor=2c0735" />
-<img src="https://img.shields.io/badge/Core%20Systems-6-FFD700?style=for-the-badge&logoColor=black&labelColor=2c0735" />
-<img src="https://img.shields.io/badge/Status-Completed-2ECC71?style=for-the-badge&labelColor=2c0735" />
-
-<br/><br/>
-
 <img src="https://img.shields.io/github/stars/Talha-Yaseen-Hub/Omni-Drop-Simulator?style=for-the-badge&color=FFD700&labelColor=2C0735&label=Stars" />
 <img src="https://img.shields.io/github/forks/Talha-Yaseen-Hub/Omni-Drop-Simulator?style=for-the-badge&color=00F5FF&labelColor=2C0735&label=Forks" />
 <img src="https://img.shields.io/github/last-commit/Talha-Yaseen-Hub/Omni-Drop-Simulator?style=for-the-badge&color=FF2D95&labelColor=2C0735&label=Last%20Commit" />
