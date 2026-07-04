@@ -428,36 +428,35 @@ stateDiagram-v2
 
 <br/>
 
-## 🎓 Author & Academic Info
+## 👨‍💻 Author
 
-<div align="center">
+## Talha Yaseen
 
-### Talha Yaseen
+*Roll: BITF24M041*
 
-| | |
-|---|---|
-| **Roll No** | BITF24M041 |
-| **Program** | BS Information Technology |
-| **Faculty** | FCIT |
-| **University** | University of the Punjab, Lahore |
-| **Batch** | 2024 |
-| **Project Type** | Java Programming — Personal / Academic Project |
+*BS Information Technology*
 
-<br/>
+Omni Drop Simulator Java Arcade
 
-<a href="mailto:talhavectorarts@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/in/talha-yaseen-44a41a341">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/Talha-Yaseen-Hub">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+*Acaddemic Java Arcade Project*
+
+### Connect with Me
+
+- 🌐 GitHub: **[github.com/Talha-Yaseen-Hub](https://github.com/Talha-Yaseen-Hub)**
+- 💼 LinkedIn: **[linkedin.com/in/talha-yaseen](https://www.linkedin.com/in/talha-yaseen-44a41a341)**
+- 📧 Email: **talhavectorarts@gmail.com**
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=Talha-Yaseen-Hub&show_icons=true&theme=radical&hide_border=true"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Talha-Yaseen-Hub&layout=compact&theme=radical&hide_border=true"/>
+
+<img src="https://streak-stats.demolab.com/?user=Talha-Yaseen-Hub&theme=radical&hide_border=true"/>
 
 </div>
 
-<br/>
+<div align="right"><a href="#top">⬆️ Back to Top</a></div>
 
 ---
 
